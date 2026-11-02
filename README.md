@@ -33,3 +33,10 @@ Mobile (Android-застосунок) + Web/API (панель адміністр
 ## Авторка
 
 Мирончук Ірина Вікторівна
+
+## Технології
+
+- Мобільний клієнт: Android (NFC).
+- Серверна частина: C# / ASP.NET Core, REST API.
+- База даних: PostgreSQL.
+- CI/CD: GitHub Actions, Docker.
