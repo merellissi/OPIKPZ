@@ -52,18 +52,21 @@ dotnet run --project src/Server
 ## Структура проєкту
 
 ```
-.github/      шаблони та налаштування CI
-docs/         документація проєкту та звіти практичних робіт
-docs/adr/     журнал архітектурних рішень (ADR)
-docs/board/   скриншоти дошки задач і плани спринтів
-src/          вихідний код (буде додано)
-tests/        тести (буде додано)
+.github/        шаблони та налаштування CI
+docs/           документація проєкту та звіти практичних робіт
+docs/adr/       журнал архітектурних рішень (ADR)
+docs/diagrams/  діаграми діяльності та послідовності
+docs/board/     скриншоти дошки задач і плани спринтів
+src/            вихідний код (буде додано)
+tests/          тести (буде додано)
 ```
 
 ## Документація
 
 - Вікі проєкту (вимоги, ТЗ): [Notion](https://app.notion.com/p/NFC-Access-Time-Tracker-41b653707dcb8095beaee836f2c006c5)
 - Архітектурні рішення: [docs/adr/](docs/adr/)
+- Діаграми діяльності та послідовності: [docs/diagrams/](docs/diagrams/)
+- Прототип інтерфейсу: [Figma](https://www.figma.com/design/dHXEfZjXpy1O1aC76knFp0/Untitled?node-id=0-1)
 - Дошка задач: [GitHub Projects](https://github.com/users/merellissi/projects/2/views/1)
 
 ## Як зробити внесок
