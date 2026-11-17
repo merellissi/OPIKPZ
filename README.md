@@ -18,7 +18,7 @@
 |---|---|
 | Мобільний застосунок | Android (NFC) |
 | Сервер / API | C#, ASP.NET Core, REST API |
-| База даних | PostgreSQL |
+| База даних | PostgreSQL (міграції — Entity Framework Core) |
 | CI/CD | GitHub Actions, Docker |
 
 ## Встановлення / запуск
@@ -44,7 +44,7 @@ dotnet run --project src/Server
 1. Працівник відкриває мобільний застосунок і прикладає NFC-картку до смартфона.
 2. Застосунок надсилає запит до API:
    ```http
-   POST /api/attendance
+   POST /api/v1/events/scan
    { "cardId": "04A1B2C3", "type": "check-in" }
    ```
 3. Менеджер відкриває веб-панель і бачить запис: *Іваненко О. — прихід — 09:02*.
@@ -62,8 +62,9 @@ tests/        тести (буде додано)
 
 ## Документація
 
-- Вікі проєкту (вимоги, ТЗ): *посилання на Notion буде додано*
+- Вікі проєкту (вимоги, ТЗ): [Notion](https://app.notion.com/p/NFC-Access-Time-Tracker-41b653707dcb8095beaee836f2c006c5)
 - Архітектурні рішення: [docs/adr/](docs/adr/)
+- Дошка задач: [GitHub Projects](https://github.com/users/merellissi/projects/2/views/1)
 
 ## Як зробити внесок
 
